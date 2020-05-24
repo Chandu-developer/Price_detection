@@ -1,0 +1,7 @@
+from pushbullet import Pushbullet
+
+pb = Pushbullet('o.1zUS62GLHLBE79V7oXkdkzFx90qVCeOh')
+
+push=pb.push_link('Price has been went down', 'https://www.amazon.in/dp/B00ZX1PO5M/ref=s9_acsd_al_bw_c2_x_1_t?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-2&pf_rd_r=5J3A4MMMF1ZNQBXE7HS1&pf_rd_t=101&pf_rd_p=86e90160-7ff7-4e49-af5f-b4476ceb798e&pf_rd_i=21246959031')
+
+#print(pb.devices) #gives all the devices that are linked to my account
