@@ -8,9 +8,9 @@ Created on Fri May  1 01:44:51 2020
 from sinchsms import SinchSMS
 #Sending a normal text message to the user
 def send_message():
-    number = "7799004638"
-    app_key = "084f3b8e7a1d431b9bb3a9b0f422f693"
-    app_secrect =   "74c4e39891a84db3bb9cf5e640755a05"
+    number = "your_mobile_number_here"
+    app_key = "api key"
+    app_secrect =   "app secerct key"
     message = 'Hello User, the price of the product is decreased'
     message1  = "Give the link here"
   
